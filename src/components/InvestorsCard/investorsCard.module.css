@@ -1,0 +1,89 @@
+/* now create inner circle inside middle in center */
+.inner {
+  margin-top: auto;
+  border: 3.7px solid #a966ff;
+  height: 310px;
+  width: 310px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+/* now create image inside inner in center */
+.image {
+  margin-top: auto;
+  /* background-color: #ff81ae; */
+  height: 280px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.stakeholderinfo {
+  margin-top: 20px;
+  text-align: center;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.stakeholderinfo h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #050505;
+  width: 100%;
+}
+
+.stakeholderinfo h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #858585;
+}
+
+.stakeholderinfo p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #858585;
+}
+
+@media screen and (max-width: 768px) {
+  .stakeholdercard {
+    width: 40%;
+  }
+
+  .inner {
+    height: 160px;
+    width: 160px;
+  }
+
+  .image {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stakeholdercard {
+    width: 45%;
+  }
+
+  .inner {
+    height: 145px;
+    width: 145px;
+  }
+
+  .image {
+    height: 131px;
+    width: 131px;
+  }
+}

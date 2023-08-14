@@ -1,0 +1,98 @@
+.recentPost {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 2.5rem 0.5rem;
+  border-bottom: 1px solid rgb(177, 173, 173);
+}
+.posts {
+  width: 100%;
+  /* border: 1px solid rgb(252, 200, 89); */
+  margin: auto;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.posts::-webkit-scrollbar {
+  display: none;
+}
+.cards {
+  display: flex;
+  border: 0.5px solid rgb(170, 170, 170);
+  min-width: 500px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.cards .imgSec {
+  width: 33%;
+  margin: -2px;
+}
+.imgSec img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+.details {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.details > p {
+  padding-bottom: 5px;
+}
+.postDetails {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 1.2rem;
+}
+.postDetails p {
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 800px) {
+  .posts .cards {
+    min-width: 350px;
+  }
+  .cards .imgSec {
+    width: 150px;
+  }
+  .details > h2 {
+    font-size: 1.2rem;
+  }
+  .details > p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .posts {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* border: 1px solid rgb(252, 200, 89); */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .cards .imgSec {
+    min-width: 115px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .posts .cards {
+    min-width: 250px;
+    max-height: 110px;
+  }
+  .cards .imgSec {
+    max-width: 90px;
+  }
+  .details > h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
+}

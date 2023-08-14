@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 5rem auto; */
+  /* width: 100%; */
+  background: #2E2E2E;
+  /* border: 2px solid green; */
+}

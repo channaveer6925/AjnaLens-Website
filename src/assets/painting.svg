@@ -1,0 +1,12 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="paintbucket" clip-path="url(#clip0_6361_2997)">
+<path id="Vector" d="M3.7745 15.8551L7.2345 19.3151C9.6645 21.7451 10.4945 21.7051 12.8945 19.3151L18.4645 13.7451C20.4045 11.8051 20.8945 10.5151 18.4645 8.08513L15.0045 4.62513C12.4145 2.03513 11.2845 2.68513 9.3445 4.62513L3.7745 10.1951C1.3845 12.5951 1.1845 13.2651 3.7745 15.8551Z" stroke="#0C0C0D" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M19.2034 17.0852L18.5434 18.1752C17.6134 19.7252 18.3334 20.9952 20.1434 20.9952C21.9534 20.9952 22.6734 19.7252 21.7434 18.1752L21.0834 17.0852C20.5634 16.2252 19.7134 16.2252 19.2034 17.0852Z" stroke="#0C0C0D" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M2.00391 12.5351C7.56391 11.0251 13.4239 10.9751 19.0039 12.4051L19.5039 12.5351" stroke="#0C0C0D" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_6361_2997">
+<rect width="24" height="24" fill="white" transform="translate(0.00390625 0.295166)"/>
+</clipPath>
+</defs>
+</svg>

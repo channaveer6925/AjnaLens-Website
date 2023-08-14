@@ -1,0 +1,13 @@
+.phoneContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1210px) {
+  .container {
+    display: none;
+  }
+
+  .phoneContainer {
+    display: block;
+  }
+}

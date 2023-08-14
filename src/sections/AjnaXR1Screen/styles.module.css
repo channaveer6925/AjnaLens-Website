@@ -1,0 +1,70 @@
+.screen_one {
+  height: 100vh;
+  width: 100%;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  position: sticky;
+}
+.screen_one > h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-size: 2.1rem;
+}
+.screen_one .imgSec {
+  width: 60%;
+  margin: auto;
+}
+.screen_one .edition {
+  border: 0.2px solid #484848;
+  width: 150px;
+  padding: 0.5rem 0;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: -2rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  position: relative;
+  z-index: 20;
+}
+
+.imgSec > img {
+  height: 500px;
+}
+.screen_one .preBtn {
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 17px;
+  color: white;
+  background: #7000ff;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+.scrollDi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  margin: auto;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+.scrollDi > p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.scrollDi > img {
+  width: 10%;
+}
+.imgSecInfo > h1 {
+  color: black;
+}
+.imgSec > div {
+  color: black;
+  /* border: 1px solid rgb(15, 26, 180); */
+  height: 4rem;
+  overflow: hidden;
+}

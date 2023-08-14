@@ -1,0 +1,57 @@
+.successSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcdcdc;
+}
+.Container {
+  width: 541px;
+  height: 246px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px;
+}
+.PaymentStatus {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #8fd200;
+}
+.orderId {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #858585;
+}
+.message {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #343434;
+}
+.homeBtn {
+  border-radius: 20px;
+  background: rgba(122, 104, 233, 1);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.homeBtn:hover {
+  background: rgb(111, 90, 246);
+}

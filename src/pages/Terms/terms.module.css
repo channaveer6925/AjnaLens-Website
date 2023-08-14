@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  padding: 1rem 10%;
+}
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0.04em;
+}
+.subTitle {
+  font-size: 48px;
+  letter-spacing: 0.04em;
+  margin: 2rem 0;
+}
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  margin: 1rem 0;
+}
+.bodyText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 2rem 5%;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .subTitle {
+    font-size: 24px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .bodyText {
+    font-size: 16px;
+  }
+}

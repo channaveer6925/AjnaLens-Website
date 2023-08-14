@@ -1,0 +1,447 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageContainer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #f4f4f4;
+  position: relative;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {
+  width: 45%;
+}
+
+.textContainer h1 {
+  font-size: 84px;
+  text-align: center;
+  line-height: 114.9%;
+  letter-spacing: 0.04rem;
+  color: #fff;
+}
+
+.textContainer span {
+  font-weight: 700;
+}
+
+/* Common */
+.sectionHeading {
+  font-weight: 800;
+  font-size: 18px;
+  color: #7000ff;
+}
+
+/* Headline */
+.subContainer {
+  margin-top: 50px;
+  width: 46%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2%;
+}
+.left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #7000ff;
+}
+.left h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #7000ff;
+}
+.divider {
+  background-color: #d6d6d6;
+  border: 1px solid #d6d6d6;
+}
+.right {
+  width: 55%;
+}
+.right h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #484848;
+}
+.right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  color: #717171;
+}
+/* Accordion section */
+.accordionContainer {
+  width: 46%;
+  margin-top: 50px;
+}
+.accordionContainer h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.accordionHeader {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.listItems {
+  text-align: left;
+}
+.accordion {
+  width: 100%;
+  margin: 2rem 0;
+  --bs-accordion-active-bg: #fefefe !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-color: #121212 !important;
+  --bs-accordion-active-border-color: none !important;
+}
+.accordion button:focus-within {
+  box-shadow: none !important;
+}
+.divider {
+  border: 1px solid #d6d6d6;
+}
+
+/* Solution section */
+.solutionContainer {
+  margin-top: 200px;
+  position: relative;
+}
+.bridgeImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bridge {
+  width: 100%;
+}
+.solutionContent {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15%;
+  left: 30%;
+}
+.solutionHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.solutionText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #484848;
+}
+/* Plan section */
+.planContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  width: 60%;
+}
+.planHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.planImagesContainer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.planImage {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.planImageSize {
+  width: 249px;
+  height: 249px;
+}
+/* Action section */
+.actionContainer {
+  margin-top: 80px;
+  width: 100%;
+  /* height: 30vh; */
+  padding: 50px;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.actionContent {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.actionHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.actionText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #484848;
+}
+.actionButton {
+  width: 300px;
+  height: 53px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  background: #7000ff;
+  border-radius: 30px;
+  border: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .textWrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .solutionContainer {
+    position: static;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .solutionContent {
+    position: static;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .planImagesContainer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .planImage {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1144px) {
+  .textWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .textContainer h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .textContainer h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .imageContainer img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .imageContainer {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .textContainer {
+    height: 50vh;
+  }
+
+  /* Headline */
+  .subContainer {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left {
+    text-align: center;
+  }
+  .left h1 {
+    font-size: 54px;
+  }
+  .left h4 {
+    font-size: 26px;
+  }
+  .right {
+    width: 100%;
+    text-align: center;
+  }
+  .right h4 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .right p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  /* Accordion section */
+  .accordionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  .accordionHeading {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  /* Soluton section */
+  .solutionContainer {
+    width: 90%;
+    position: static;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .solutionContent {
+    position: static;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .solutionHeading {
+    font-weight: 700;
+    font-size: 26px;
+  }
+  /* plan section */
+  .planContainer {
+    width: 90%;
+  }
+  .planHeading {
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .planImagesContainer {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .planImage h3 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .planImageSize {
+    width: 45px;
+    height: 45px;
+  }
+  /* Action section */
+  .actionContainer {
+    padding: 40px 2px;
+  }
+  .actionContent {
+    width: 100%;
+  }
+  .actionHeading {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .actionText {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,14 @@
+.Banner {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
+  padding-bottom: 118px;
+}
+.Banner img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .Banner {
+    padding-bottom: 42px;
+  }
+}

@@ -1,0 +1,327 @@
+/* Headline */
+.actionContainer {
+  margin-top: 200px;
+}
+.headlineContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+.headlineContainer p {
+  color: #7000ff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+.headingText {
+  width: 69%;
+}
+.bookImgContainer {
+  width: 31%;
+}
+.bookImg {
+  width: 100%;
+  height: 100%;
+}
+.headingText p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7000ff;
+}
+.headingText h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.heading img {
+  width: 335px;
+  height: 275.21px;
+}
+.quote {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.quote h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #5d5d5d;
+}
+
+/* Form section */
+.formContainerBody {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 117px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formContainerBody h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #484848;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+}
+.formContainer img {
+  margin-left: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 20px;
+}
+.form h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #484848;
+}
+.form p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  color: #484848;
+}
+.form label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  color: #484848;
+}
+.form button {
+  width: 185px;
+  height: 53px;
+  color: white;
+  background: #7000ff;
+  border-radius: 30px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+}
+.form input {
+  width: 80%;
+  height: 55px;
+  left: 162.12px;
+  top: 175px;
+  background: #ffffff;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+}
+.inputField label {
+  min-width: 10rem;
+}
+.checkField {
+  width: 42%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 20px;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+}
+.checkFieldInputContainer {
+  width: 30px;
+  height: 30px;
+  background-color: #858585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.checkField input {
+  height: 20px;
+  width: 20px;
+}
+.checkField label {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  color: #858585;
+}
+
+/* Reason section */
+.reasonContainer {
+  margin-top: 5%;
+  padding: 3%;
+  background: #f1e6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+.reasonContainer h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.9%;
+  color: #484848;
+}
+.reasonContainer p {
+  width: 41%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #484848;
+}
+@media screen and (max-width: 920px) {
+  .headlineContainer {
+    width: 90%;
+    text-align: center;
+  }
+  .heading {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .quote {
+    margin-top: 40px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .form input {
+    width: 100%;
+  }
+  .form label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .actionContainer {
+    margin-top: 50px;
+  }
+  /* Headline section */
+  .headlineContainer {
+    width: 90%;
+    text-align: center;
+  }
+
+  .heading {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .heading img {
+    width: 107.15px;
+    height: 146.48px;
+  }
+  .headingText p {
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .headingText h1 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .quote {
+    margin-top: 40px;
+    width: 90%;
+    font-size: 16px;
+  }
+  .quote h3 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  /* Form section */
+  .formContainerBody {
+    width: 90%;
+    margin-top: 61px;
+  }
+
+  .formContainerBody h1 {
+    font-size: 26px;
+  }
+  .formContainer {
+    flex-direction: column;
+  }
+  .formContainer img {
+    width: 82.46px;
+    height: 112.25px;
+  }
+  .form {
+    padding: 20px;
+  }
+  .form h2 {
+    font-size: 24px;
+  }
+  .form p {
+    font-size: 16px;
+  }
+  .checkField {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .checkFieldInputContainer {
+    height: 18px;
+    width: 18px;
+  }
+  .checkField input {
+    height: 14px;
+    width: 14px;
+  }
+  .checkField label {
+    font-size: 16px;
+  }
+  /* Reason */
+  .reasonContainer {
+    margin-bottom: 120px;
+    gap: 10px;
+  }
+  .reasonContainer h1 {
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .reasonContainer p {
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

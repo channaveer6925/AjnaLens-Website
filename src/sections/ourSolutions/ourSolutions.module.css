@@ -1,0 +1,260 @@
+.container {
+  margin-top: 4rem;
+  background: #2e2e2e;
+}
+
+.headingSec {
+  padding: 4rem 25rem;
+  /* border: 1px solid white; */
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.sec0Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  /* border: 1px solid white; */
+}
+
+.sec0Desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+
+.OurSolutionsHeading {
+  border-top: 1px solid #a966ff;
+  padding-top: 6rem;
+}
+
+.sec1,
+.sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0rem 0;
+  /* border: 1px solid white; */
+}
+.sec1Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.sec1Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 8rem 10rem 8rem 10rem;
+}
+.sec1DescHeading {
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: left;
+}
+.sec1DescContent {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #d6d6d6;
+}
+.sec31 {
+  display: flex;
+  flex-direction: column;
+}
+.sec31Heading {
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #a966ff;
+}
+.sec31Desc {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #d6d6d6;
+  padding: 4rem 28rem;
+}
+
+.sec32 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+.sec32Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+/* tabs */
+
+.mainTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabsComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 0 4rem;
+}
+
+.accordion {
+  display: none;
+  visibility: none;
+}
+
+@media screen and (max-width: 1540px) {
+  .headingSec {
+    padding: 1rem 16rem 0 16rem;
+  }
+
+  .heading{
+    font-size: 4rem;
+  }
+  .sec0Img{
+    padding: 3rem;
+  }
+  .sec1Img > img {
+    padding: 0;
+    width: 600px;
+    height: 400px;
+  }
+
+  .sec0Img > img{
+    /* width: 500px; */
+    height: 400px;
+  }
+
+  .sec1Desc  {
+    padding: 0rem 6rem;
+    /* border: 1px solid white; */
+  }
+  .sec0Desc{
+    padding: 0rem 4rem;
+  }
+  .sec31{
+    /* border: 1px solid white; */
+    margin-top: 6rem;
+  }
+  .sec32{
+    /* border: 1px solid white; */
+    /* margin-top: 4rem; */
+    /* padding: 0;  */
+    margin: 0;
+  }
+  .sec31Desc {
+    padding: 4rem 20rem;
+  }
+
+  .sec32Img > img {
+    width: 430px;
+  }
+
+  .tabsComponent {
+    padding: 0 0rem 0 1rem;
+    /* border: 1px solid white; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headingSec {
+    padding: 4rem 0 2rem 0;
+  }
+
+  .heading,
+  .sec31Heading {
+    font-size: 36px;
+    text-align: center;
+  }
+  .OurSolutionsHeading {
+    padding-top: 4rem;
+  }
+
+  .sec1 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec2 {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec0Img > img,
+  .sec1Img > img,
+  .sec32Img > img {
+    padding: 0 1rem;
+    width: 377px;
+    margin: 0;
+  }
+  .sec0Img {
+    padding: 0rem;
+  }
+  .sec0Desc,
+  .sec1Desc {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .sec1DescHeading {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .sec1DescContent,
+  .sec31Desc {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .sec31Desc {
+    padding: 1rem;
+  }
+
+  .sec32 {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .tabsComponent {
+    display: none;
+  }
+  .accordion {
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem 6rem 1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sec0Img > img,
+  .sec1Img > img,
+  .sec32Img > img {
+    width: 360px;
+    padding: 0 1rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.action {
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 420px) {
+  .action {
+    margin-top: 65px;
+  }
+}

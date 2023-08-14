@@ -1,0 +1,121 @@
+.container {
+  margin: auto;
+  width: 90%;
+  padding-top: 2rem;
+  /* background-color: aqua; */
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ajnaLogo {
+  width: 100%;
+  padding: 2rem 0;
+  /* border: 1px solid rgb(59, 221, 47); */
+}
+.downloadSec {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  cursor: pointer;
+  height: fit-content;
+}
+.title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #151515;
+}
+.downloadText {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+.logoTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 114.9%;
+  letter-spacing: 0.04em;
+  color: #151515;
+}
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+  width: 100%;
+}
+
+.xrImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+  width: 100%;
+}
+.ajnaXR {
+  margin-top: 2rem;
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 992px) {
+  .logoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    width: 100%;
+  }
+  .xrImages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .xrImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    width: 100%;
+  }
+  .logoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    width: 100%;
+  }
+}
+
+/* Mobile View */
+
+@media (max-width: 480px) {
+  .logoGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .xrImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .logoTitle {
+    margin-bottom: 3rem;
+  }
+}

@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/setting">
+<g id="setting">
+<path id="Vector" d="M6 18.22V29.76C6 34 6 34 10 36.7L21 43.06C22.66 44.02 25.36 44.02 27 43.06L38 36.7C42 34 42 34 42 29.78V18.22C42 14 42 14 38 11.3L27 4.93997C25.36 3.97997 22.66 3.97997 21 4.93997L10 11.3C6 14 6 14 6 18.22Z" stroke="url(#paint0_linear_6360_1804)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24 30C27.3137 30 30 27.3137 30 24C30 20.6863 27.3137 18 24 18C20.6863 18 18 20.6863 18 24C18 27.3137 20.6863 30 24 30Z" stroke="url(#paint1_linear_6360_1804)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_6360_1804" x1="4.4187" y1="13.2306" x2="50.374" y2="33.4158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F58DFE"/>
+<stop offset="0.809446" stop-color="#A041FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_6360_1804" x1="17.4729" y1="20.7333" x2="32.2938" y2="27.8869" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F58DFE"/>
+<stop offset="0.809446" stop-color="#A041FF"/>
+</linearGradient>
+</defs>
+</svg>

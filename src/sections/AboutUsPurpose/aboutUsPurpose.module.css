@@ -1,0 +1,160 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.container {
+  margin: 111px auto 0;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  width: 66%;
+  margin-bottom: 240px;
+}
+
+.imageContainer {
+  min-width: 50%;
+  max-width: 52%;
+  /* max-height: 339px; */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imageContainer img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.containerName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.heart {
+  margin-top: -4px;
+  height: 25px;
+  width: 15px;
+  overflow: hidden;
+}
+
+.heart img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.containerNameText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-transform: uppercase;
+  color: #7000ff;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.9%;
+
+  letter-spacing: 0.02rem;
+  margin-bottom: 34px;
+}
+
+.containerContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 129.4%;
+  letter-spacing: 0.04rem;
+  color: #484848;
+}
+
+.cta {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #d6d6d6;
+  border-radius: 30px;
+  padding: 16px;
+  max-width: 152px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04rem;
+  color: #050505;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    gap: 30px;
+    margin-bottom: 160px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headingContainer {
+    align-items: center;
+  }
+
+  .title {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .contentContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    width: 86%;
+    margin-top: 0;
+    margin-bottom: 90px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .imageContainer {
+    max-width: 100%;
+  }
+
+  .containerContent {
+    align-items: center;
+    font-size: 16px;
+  }
+}

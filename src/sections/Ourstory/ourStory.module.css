@@ -1,0 +1,359 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.bannerImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: black;
+  margin-bottom: 7.125rem;
+}
+.img1 {
+  width: 100%;
+}
+
+.ourstory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.ourstoryTxt {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7000ff;
+}
+.howallits {
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.ourStoryartical {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #717171;
+}
+.founders {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 7.063rem;
+}
+.founderTxt {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7000ff;
+}
+.meetfounders {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.founderCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-image: url('../../asets/backgroundImg.svg');
+  background-repeat: no-repeat;
+  /* border: 1px solid; */
+}
+.founder1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28.688rem;
+  height: 37.063rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #d6d6d6;
+  backdrop-filter: blur(11.5px);
+  border-radius: 8px;
+}
+.founderImg {
+  display: flex;
+  width: 490px;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.founderImg > img {
+  width: 100%;
+}
+.nameposition {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+.name {
+  margin-bottom: unset;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #343434;
+}
+.position {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #7000ff;
+}
+.line {
+  width: 90%;
+  height: 0;
+  border: 1px solid #d6d6d6;
+}
+.ourjourney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+  width: 74.5%;
+}
+.timeline {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 114.9%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7000ff;
+}
+.sofar {
+  font-weight: 500;
+  font-size: 4.5rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+
+.journeyImgCont {
+  width: 100%;
+}
+
+.comeandjoin {
+  display: flex;
+  width: 100%;
+  height: 319px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background: #f8f8f8;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 229px;
+  height: 53px;
+  left: 845px;
+  top: 5392px;
+  background: #7000ff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.search > button {
+  color: white;
+  background: #7000ff;
+  border: none;
+}
+.comeTxt {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 114.9%;
+  letter-spacing: 0.02em;
+  color: #151515;
+  margin-bottom: 1rem;
+}
+.viewlesBtn {
+  visibility: hidden;
+}
+.deskjourneyImg {
+  width: 100%;
+  margin-top: 6.75rem;
+}
+.deskjourneyImg > img {
+  width: 100%;
+}
+@media only screen and (max-width: 1883px) {
+  .founder1 {
+    width: 22.5rem;
+  }
+  .founderCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  /*   */
+  .founder1 {
+    width: 18.68rem;
+  }
+}
+
+@media only screen and (max-width: 1205px) {
+  .founder1 {
+    width: 15rem;
+    height: 45rem;
+    gap: 2rem;
+  }
+  .ourjourney {
+    margin-top: 9rem;
+  }
+
+  .howallits {
+    font-size: 3rem;
+  }
+  .meetfounders {
+    font-size: 3rem;
+  }
+  .sofar {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .img2 {
+    background-size: 98%;
+  }
+
+  .howallits {
+    font-size: 3rem;
+  }
+  .meetfounders {
+    font-size: 3rem;
+  }
+  .sofar {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .founder1 {
+    height: 100%;
+  }
+
+  .bannerImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  }
+
+  .deskjourneyImg {
+    display: none;
+  }
+  .howallits > p {
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: unset;
+  }
+  .ourstory {
+    width: 81%;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .ourstoryTxt > p {
+    font-size: 16px;
+  }
+  .meetfounders > p {
+    font-size: 26px;
+  }
+  .sofar {
+    font-size: 26px;
+  }
+  .founderCont {
+    background-size: 87%;
+    background-image: url("../../asets/mobilebanner.svg");
+  }
+  .founder1{
+    width: 100%;
+  }
+  .comeandjoin {
+    display: none;
+  }
+
+  .img2 {
+    width: 264px;
+    height: 165px;
+    font-size: 16px;
+    /* border: 2px solid white; */
+    background-image: url('../../asets/mobilebanner2.svg');
+    background-repeat: no-repeat;
+  }
+
+  .journeyImgCont {
+    width: 100%;
+  }
+  .pathImag {
+    width: 100%;
+    height: 280vh;
+    background-image: url('https://s3.ajnavidya.com/ajnalens/ourstory/time-line-mobile.png');
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1rem;
+  }
+  .pathImag1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://s3.ajnavidya.com/ajnalens/ourstory/time-line-mobile.png');
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1rem;
+  }
+  .viewlesBtn {
+    visibility: visible;
+    border: none;
+    background: none;
+    margin: 1rem 2rem;
+  }
+  .viewbutton {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #050505;
+  }
+}

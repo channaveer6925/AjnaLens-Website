@@ -1,0 +1,22 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.career {
+  margin-top: 10rem;
+}
+
+.testimonialHead {
+  text-align: center;
+  color: #7000ff;
+  margin-top: 5rem;
+  font-weight: 700;
+}

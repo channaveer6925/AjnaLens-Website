@@ -1,0 +1,15 @@
+.proContainer .accordion-button::after {
+  margin-left: unset;
+  width: 0;
+  display: none;
+}
+.career-accordion-arrow {
+  /* width: .5rem !important; */
+  height: 1rem;
+  /* border: 1px solid red !important; */
+}
+
+.proContainer .accordion-button:not(.collapsed) .career-accordion-arrow {
+  transform: rotate(90deg);
+  transition: all 300ms ease-in-out;
+}

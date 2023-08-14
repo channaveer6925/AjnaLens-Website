@@ -1,0 +1,512 @@
+.parentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 2rem; */
+}
+.section1 {
+  /* width: 40rem; */
+  /* margin-top: 10rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* z-index: -1; */
+  /* border: 1px solid black; */
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ContactUs {
+  font-size: 1rem;
+  color: #717171;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.collabrateText {
+  margin-top: 0.5rem;
+  /* width: 38.938rem;
+  height: 3.625rem; */
+  font-weight: 700;
+  font-size: 3rem;
+}
+.collabrateTextColor {
+  color: #7000ff;
+  letter-spacing: 2px;
+}
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 1px solid black; */
+  margin-top: 6.25rem;
+  /* width: 60rem; */
+  height: 10rem;
+  gap: 20px;
+  z-index: 1;
+  background-color: #fff;
+}
+.labelTxt {
+  font-size: 14px;
+  color: #343434;
+  /* letter-spacing: 3px; */
+  font-weight: 500;
+}
+.webTxt {
+  font-size: 14px;
+  color: #343434;
+  font-weight: 500;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 30px;
+  width: 365px;
+  height: 55px;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+.input > input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.input1 > input {
+  font-size: 20px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.inputWebsite {
+  width: 80%;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+}
+.typeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.type {
+  font-size: 14px;
+  color: #343434;
+  font-weight: 500;
+}
+.mention {
+  font-size: 14px;
+  color: #343434;
+  font-weight: 500;
+  padding-top: 10px;
+  /* margin-right: 35rem; */
+}
+.typeCon {
+  /* width: 786px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+.radioCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  height: 70px;
+}
+/* .radios{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+} */
+.supportRadio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 55px;
+  padding-left: 40px;
+}
+.supportRadio > input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.lebalTxt {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* label {
+  font-weight: 500;
+  color: #343434;
+  background-color: aqua;
+} */
+.gridCont {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  z-index: 1;
+  background-color: #fff;
+}
+.websiteLink {
+  width: 96%;
+  height: 55px;
+  border: 1px solid #c2c2c2;
+  border-radius: 12px;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.typeCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.inputWithradio {
+  /* margin-left: 40px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid ; */
+  gap: 26px;
+  /* background-color: aqua; */
+}
+.radioInputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+.MentionyourInput {
+  height: 193px;
+  width: 100%;
+  border-radius: 10px;
+}
+.submitBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+}
+.submitBtn > button {
+  width: 126px;
+  height: 53px;
+  border-radius: 30px;
+  background-color: #7000ff;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.line {
+  margin-top: 3rem;
+  width: 100%;
+  height: 0px;
+  border: 1px solid rgb(221, 210, 210);
+}
+.line2 {
+  margin-top: 4.5rem;
+  width: 80%;
+  border: 1px solid rgb(221, 210, 210);
+}
+.sectionTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 80px; */
+  margin-top: 3.6rem;
+  /* border: 1px solid black; */
+  /* width: 120%; */
+  /* height: 285px; */
+}
+.forBusiness {
+  /* border: 1px solid black; */
+  /* width: 128px; */
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Businesstxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+}
+.email {
+  font-size: 18px;
+  color: #5d5d5d;
+}
+.officeAddressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 1px solid; */
+  width: 40%;
+  height: 200px;
+  margin-top: 7rem;
+  margin-bottom: 8rem;
+  /* margin-left: 3rem; */
+}
+.officeAddressText {
+  font-size: 16px;
+  color: #717171;
+  font-weight: 500;
+}
+.officeAddressCont {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  color: #050505;
+}
+.officeAddress {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.officeAddressName {
+  width: 18rem;
+}
+.text {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 15px;
+  resize: none;
+}
+.mapCont {
+  /* border: 1px solid; */
+  position: absolute;
+  top: 100px;
+  right: 1px;
+  z-index: -1;
+  /* margin-bottom: 3rem; */
+}
+.MentionyourContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 96%; */
+}
+.MentionyourContainer > div {
+  margin-top: 0.5rem;
+}
+/* Modal */
+.modalBody {
+  text-align: center;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+/* media query */
+@media only screen and (max-width: 480px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* border: 1px solid red; */
+    /* width: 80%; */
+  }
+  .type {
+    padding-right: 15rem;
+  }
+  .MentionyourInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collabrateText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5rem;
+  }
+  /* .webTxt { */
+  /* margin-left: 3.4rem; */
+  /* margin-top: 1rem; */
+  /* background-color: aqua; */
+  /* } */
+  .typeCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapCont {
+    display: none;
+  }
+  .section1 {
+    /* background-color: rgb(223, 116, 22); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .line {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 0px;
+    border: 1px solid rgb(221, 210, 210);
+  }
+  .ContactUs {
+    font-size: 1rem;
+    color: #717171;
+    font-weight: 600;
+    margin-left: 2.5rem;
+
+    /* padding-right: 100px; */
+  }
+  .collabrateText {
+    width: 20.188rem;
+    /* height: 3.625rem; */
+    font-size: 2rem;
+    padding-right: 1.275rem;
+  }
+  .text {
+    /* background-color: aquamarine; */
+    height: 40%;
+    /* background-color: aqua; */
+    /* margin-left: 3rem; */
+    width: 87%;
+  }
+  .gridCont {
+    /* margin-top: 133px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    /* gap: 10px; */
+    /* border: 1px solid; */
+  }
+
+  .websiteCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.3rem;
+  }
+
+  .input {
+    /* background-color: aqua; */
+    width: 87%;
+    overflow: hidden;
+    /* background-color: aqua; */
+  }
+  .input1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .input1 > input {
+    width: 87%;
+    /* background-color: aqua; */
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .input > input {
+    width: 80%;
+    /* background-color: aqua; */
+  }
+
+  .inputWithradio {
+    /* border: 1px solid black; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* justify-content:flex-start; */
+    align-items: flex-start;
+
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    /* margin-left: 30px; */
+  }
+
+  .radioInputContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+
+  .websiteText {
+    margin-left: 1rem;
+    font-size: 14px;
+    color: #343434;
+  }
+  .mention {
+    font-size: 14px;
+    color: #343434;
+    font-weight: 500;
+    /* background-color: aqua; */
+  }
+  .MentionyourInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    /* margin-left: 3.75rem; */
+  }
+  .MentionyourContainer {
+    width: 100%;
+  }
+  .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    margin: auto;
+    margin-top: -5rem;
+  }
+  .forBusiness {
+    /* border: 1px solid black; */
+    margin-top: 80px;
+  }
+  .submitBtn {
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+  }
+  .officeAddressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 10rem;
+  }
+  .officeAddressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 10rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+}
+@media only screen and (max-width: 930px) {
+}

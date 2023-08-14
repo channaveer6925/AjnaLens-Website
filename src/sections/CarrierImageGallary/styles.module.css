@@ -1,0 +1,112 @@
+.container {
+  margin: auto;
+  margin-top: 8rem;
+  /* border: 1px solid red; */
+  width: 80%;
+}
+.carousel {
+  width: 100%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.testimonialsHeader {
+  text-align: center;
+}
+.testimonialsHeader > p {
+  color: #7000ff;
+  font-weight: 700;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #7000ff !important;
+  color: transparent !important;
+  width: 29px !important;
+  height: 10px !important;
+  border-radius: 20px;
+  opacity: 1 !important;
+  transition: all 0.1s ease-in;
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-dots li {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 29px !important;
+  height: 10px !important;
+}
+
+.slick-dots li button {
+  height: 10px !important;
+}
+
+.slick-dots li button:before {
+  opacity: 0.35 !important;
+  height: 10px !important;
+  line-height: 10px !important;
+  color: #7000ff !important;
+}
+
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slide img {
+  width: 102%;
+  max-height: 500px;
+  /* border: 2px solid red; */
+}
+
+.btnContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.carouselBtn {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  padding: 11px 16px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.carouselBtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* .slide {
+  height: 525px;
+  overflow: hidden;
+  padding: 0 .9rem;
+  position: relative;
+} */
+/* @media screen and (max-width:980px){
+    .slide{
+        padding: 0 7rem;
+    }
+}
+@media screen and (max-width:780px){
+    .slide{
+        padding: 0 .5rem;
+    }
+}
+@media screen and (max-width:480px){
+    .slide{
+        padding: 0 .3rem;
+    }
+} */

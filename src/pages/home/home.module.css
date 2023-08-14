@@ -1,0 +1,256 @@
+.standardTextLg {
+  max-width: 704.516px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(126deg, #f58dfe 0%, #a041ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+}
+
+.tagLine {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.standardTextSm {
+  background: linear-gradient(116deg, #f58dfe 0%, #a041ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.outerContainer {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 3rem;
+}
+
+.typoHeading {
+  display: flex;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 1.5rem 0;
+}
+
+.typoPara {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.scrollCard {
+  gap: 30px;
+  border: 1px solid #f0f0f0;
+  padding: 2rem;
+  background: #fcfcfc;
+  display: grid;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+
+.cardHeading {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cardTypo {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.scrollContainer {
+  /* position: absolute; */
+  /* width: 1280px; */
+  /* overflow: scroll; */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  /* margin-left: 60px; */
+  margin: 0 auto;
+  /* left: 5%; */
+}
+
+.marqueeContainer {
+  /* position: relative; */
+  height: 489px;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoContainer {
+}
+
+.infoHeading {
+  color: #1d1d1d;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.infoSubHeading {
+  color: #1d1d1d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.infoInnerContainer {
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.videoOuterContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 362px;
+}
+
+.videoHeading {
+  color: #161719;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+}
+
+.videoPara {
+  color: #161719;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 114.9%; /* 16.086px */
+  letter-spacing: 0.56px;
+}
+
+.leftCol {
+  border-radius: 0px 34px 34px 0px;
+  height: 362px;
+}
+
+.rightCol {
+  display: grid;
+  align-items: center;
+  padding: 2.5rem;
+  height: 100%;
+  gap: 20px;
+  border-radius: 34px 0px 0px 34px;
+  background-color: #fcfcfc;
+}
+
+.testimonialsHeading {
+  color: #151515;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 114.9%; /* 45.96px */
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+.testimonialCard {
+  height: 349px;
+  display: flex;
+  padding: 24px 20px 24px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 10px; */
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 18px;
+  background: #fcfcfc;
+}
+
+.role {
+  color: #808080;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 114.9%; /* 16.086px */
+  letter-spacing: 0.56px;
+}
+
+.nameStyle {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 114.9%; /* 22.98px */
+  letter-spacing: 0.8px;
+}
+
+.heightContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 3rem;
+}
+
+.margin_y {
+  margin: 0 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  .standardTextLg {
+    font-size: 34px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cardTypo {
+    font-size: 13px !important;
+  }
+  .cardHeading {
+    font-size: 20px;
+  }
+  .position-relative {
+    width: 100%;
+  }
+  .scrollContainer {
+    overflow-x: scroll;
+  }
+  .scrollCard {
+    width: 267px !important;
+  }
+}

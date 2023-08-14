@@ -1,0 +1,61 @@
+.behindTheMic {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 91px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.contentContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 72px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .contentContainer {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contentContainer {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .behindTheMic {
+    gap: 70px;
+  }
+
+  .contentContainer {
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .behindTheMic {
+    width: 86%;
+    gap: 42px;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

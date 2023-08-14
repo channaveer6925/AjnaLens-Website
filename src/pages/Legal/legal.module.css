@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.heroImage > img {
+  width: 100%;
+}
+.firstFlex {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  /* padding: 1rem 20rem; */
+  gap: 2rem;
+  /* border: 1px solid red; */
+}
+.first {
+  /* border: 1px solid; */
+  padding: 2rem 1rem;
+  width: 50%;
+}
+.second {
+  /* border: 1px solid; */
+  padding: 2rem 1rem;
+  width: 50%;
+}
+.flexTitle {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height, or 37px */
+  letter-spacing: 0.02em;
+}
+.secondTitle {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height, or 37px */
+  letter-spacing: 0.02em;
+}
+.flexContent {
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 20px;
+  /* letter-spacing: 0.04em; */
+}
+.flexLink {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+.linkFlex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.linkFlex > img {
+  margin-top: 7px;
+}
+
+/* Privacy Policy */
+
+.privacyPolicy,
+.annualReport {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid purple; */
+  align-items: center;
+  margin: 3rem 15%;
+}
+.privacyContent {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.pLink {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  margin: 2rem 0rem;
+}
+
+/* Annual Report */
+
+.annualFlex {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 480px) {
+  .heroImage {
+    margin-top: 2rem;
+  }
+  .heroImage > img {
+    height: 300px;
+  }
+  .firstFlex {
+    display: block;
+    width: 90%;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    /* border: 1px solid; */
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    /* border: 1px solid; */
+    margin-top: 5rem;
+  }
+  .flexTitle,
+  .secondTitle {
+    font-size: 40px;
+    text-align: center;
+  }
+  .secondTitle {
+    text-align: center;
+  }
+  .flexContent,
+  .privacyContent {
+    font-size: 18px;
+  }
+  .privacyPolicy {
+    margin: 3rem 1rem;
+  }
+  .privacyContent {
+    text-align: left;
+  }
+  .annualReport {
+    margin: 3rem 1rem;
+  }
+  .annualFlex {
+    display: block;
+    width: 100%;
+  }
+  .pLink,
+  .flexLink {
+    font-size: 16px;
+  }
+  .linkFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .pLinkmini {
+    margin-top: -1.25rem;
+  }
+  .lastNext > img {
+    margin-top: -3.25rem;
+  }
+}

@@ -1,0 +1,208 @@
+.sectionHeading {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid #0000001a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.spanClear {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  text-decoration-line: underline;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.mainGalleryDiv {
+  border-radius: 20px;
+  background: #f4f4f4;
+  padding: 50px;
+  height: 415.978px;
+  width: 600px;
+}
+
+.gallerySection {
+  border-radius: 20px;
+  background: #f4f4f4;
+  padding-top: 20px;
+  min-height: 123.769px;
+  cursor: pointer;
+}
+
+.gallerySection:hover {
+  border: 1px solid #7a68e9;
+}
+
+.mainImg {
+  display: block;
+  margin: auto;
+}
+
+.addBorder {
+  border: 1px solid #7a68e9;
+}
+
+.customInput {
+  border: 0px;
+  border-bottom: 1px solid #161719;
+  padding: 12px 0px;
+  margin-bottom: 27px;
+}
+
+.customInput::placeholder {
+  color: #898d93;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.inputLabel {
+  color: #7b7e83;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cancelBtn {
+  border-radius: 50px;
+  border: 1px solid rgba(60, 62, 67, 0.2);
+  padding: 12px 24px;
+  background: transparent;
+  color: #0c0c0d;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.nextBtn {
+  border-radius: 50px;
+  border: 0px;
+  padding: 12px 24px;
+  background: #7a68e9;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-left: 10px;
+}
+
+input[type='checkbox'] {
+  width: 19.053px;
+  height: 19.053px;
+}
+
+.instructionCheck {
+  margin-left: 0.5rem;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+}
+
+.edition {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  opacity: 0.5;
+}
+
+.productName {
+  display: flex;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.72px;
+}
+
+.productStatus {
+  color: #fa342b;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+
+.deliveryStatus {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+}
+
+.clearButton {
+  background: transparent;
+  border: 0px;
+}
+
+.btnMinus {
+  background: transparent;
+  border: 1px solid #0000001a;
+  border-radius: 50px 0 0 50px;
+  padding: 1px 10px;
+}
+
+.btnPlus {
+  background: transparent;
+  border: 1px solid #0000001a;
+  border-radius: 0 50px 50px 0;
+  padding: 1px 10px;
+}
+
+.btnCredits {
+  border: 1px solid #0000001a;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 1px 10px;
+}
+
+.counter {
+  display: flex;
+}
+
+.totalPrice {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.couponContainer {
+  margin-top: 35px;
+  margin-bottom: 37px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px dashed #d9d9d9;
+  padding: 10px;
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.promoContainer {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 8px;
+  color: #202020;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 12px;
+  background: #f2f2f2;
+  cursor: pointer;
+  margin: 17px 0;
+}
+
+.promoHeading {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.aboutUsMission .accordion-button::after {
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  height: 42px !important;
+  width: 42px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+
+.aboutUsMission .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon) !important;
+  transform: rotate(0deg) !important;
+}
+
+.aboutUsMission .accordion-header {
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-padding-y: 0;
+  --bs-accordion-body-padding-y: 0;
+  --bs-accordion-active-color: #000;
+  --bs-accordion-active-bg: #fff;
+  outline: none !important;
+}
+
+.aboutUsMission .accordion-button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 114.9%;
+  letter-spacing: 0.02rem;
+  color: #484848;
+}

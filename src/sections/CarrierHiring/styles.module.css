@@ -1,0 +1,20 @@
+.hiring {
+  /* border: 1px solid green; */
+  margin-top: 5rem;
+  text-align: center;
+  background-color: rgba(248, 248, 248, 1);
+  padding: 1rem;
+}
+.hiring > h1 {
+  margin-bottom: 1rem;
+}
+.hiring > button {
+  background-color: rgba(112, 0, 255, 1);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.hiring > button > img {
+  width: 15px;
+}

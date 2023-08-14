@@ -1,0 +1,399 @@
+.mainContainer {
+  background: #000;
+  padding: 1rem 0;
+  padding-bottom: 10rem;
+  margin-top: 4rem;
+  position: relative;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  height: 100vh;
+  background-image: url('../../asets/prelaunch/AjnaXrV5R5.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -6rem;
+}
+.heading {
+  /* border: 1px solid white; */
+  margin-top: 10rem;
+}
+.heading1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 114.9%;
+  /* identical to box height, or 28px */
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+  text-align: center;
+}
+.heading2 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 114.9%;
+  /* or 110px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* white */
+  color: #ffffff;
+  margin-top: -1.5rem;
+}
+.PreLaunchBtn {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 0 2rem;
+  background: #7000ff;
+  border-radius: 50px;
+  height: 3rem;
+  pointer-events: none;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.plans {
+  display: flex;
+  /* gap: 13rem; */
+  width: 75%;
+  /* margin: auto; */
+  justify-content: space-evenly;
+  margin-top: 12rem;
+  /* z-index: 500; */
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.colBoldText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+  /* identical to box height, or 28px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+.colText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 114.9%;
+  text-align: center;
+  /* or 18px */
+  letter-spacing: 0.04em;
+  /* Grey/4 */
+  color: #858585;
+}
+.progressBar {
+  position: relative;
+  margin-top: -8rem;
+  margin-left: -1.5rem;
+}
+.progressBar > img {
+  width: 98%;
+}
+/* countries */
+.countries {
+  width: 17rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.selectTab {
+  width: 100%;
+  text-align: center;
+  background: #000;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.countriesHeading {
+  color: #ffffff;
+}
+
+.countrySelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin-top: 16px;
+  margin-right: 70px;
+  padding: 12px 24px;
+
+  /* border: 1px solid rgb(95, 95, 95); */
+
+  border-radius: 12px;
+}
+
+.countrySelector h2 {
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.countrySelector select {
+  background-color: transparent;
+  color: #fff;
+  opacity: 0.8;
+
+  border: none;
+  outline: none;
+}
+
+.countrySelector select option {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 12px;
+}
+
+/* Tablet */
+@media screen and (max-width: 940px) {
+  .container {
+    width: 100%;
+    background-image: url('../../asets/prelaunch/AjnaXrV5R5Mini.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-size: 100%;
+  }
+  .plans {
+    width: 100%;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .heading {
+    margin-top: -3rem;
+  }
+  .heading1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.9%;
+    /* identical to box height, or 16px */
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+  }
+  .heading2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 114.9%;
+    /* or 28px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 0;
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .PreLaunchBtn {
+    margin-top: 10rem;
+  }
+  .PreLaunchTxt {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+
+  .colBoldText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 114.9%;
+    /* or 18px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  .col1 {
+    gap: 2rem;
+    /* border: 1px solid white; */
+    width: 27%;
+  }
+  .colText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 114.9%;
+    /* or 16px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    /* Grey/4 */
+    color: #858585;
+  }
+  .progressBar {
+    position: absolute;
+    margin: 0;
+    bottom: 37%;
+  }
+  .progressBar > img {
+    width: 75%;
+    display: flex;
+    margin: 1px auto;
+  }
+}
+
+/* Tablet2 */
+@media screen and (max-width: 840px) {
+  .heading {
+    margin-top: 8rem;
+  }
+  .plans {
+    gap: 3rem;
+  }
+  .progressBar {
+    bottom: 29%;
+  }
+  .progressBar > img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 755px) {
+  .progressBar {
+    bottom: 35%;
+  }
+  .progressBar > img {
+    width: 75%;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 500px) {
+  .mainContainer {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+    margin-top: 3.8rem;
+  }
+  .container {
+    width: 100%;
+    background-image: url('../../asets/prelaunch/AjnaXrV5R5Mini.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+  }
+  .countrySelector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    top: 1rem;
+    right: 25px;
+    left: 25px;
+    padding: 10px 20px;
+    margin: unset;
+    /* border: 1px solid rgb(95, 95, 95); */
+
+    border-radius: 12px;
+  }
+  .countrySelector select {
+    background-color: transparent;
+    color: #fff;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .plans {
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+  .heading {
+    margin-top: -6rem;
+  }
+  .heading1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114.9%;
+    /* identical to box height, or 16px */
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+  }
+  .heading2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 114.9%;
+    /* or 28px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 0;
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .PreLaunchBtn {
+    margin-top: 5rem;
+  }
+  .PreLaunchTxt {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .colBoldText {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 114.9%;
+    /* or 18px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  .col1 {
+    gap: 2rem;
+  }
+  .colText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114.9%;
+    /* or 16px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    /* Grey/4 */
+    color: #858585;
+  }
+  .enroll {
+    display: none;
+  }
+  .progressBar {
+    bottom: 41%;
+  }
+  .progressBar > img {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heading {
+    margin-top: -8rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .heading {
+    margin-top: 0rem;
+  }
+  .progressBar {
+    bottom: 30%;
+  }
+}

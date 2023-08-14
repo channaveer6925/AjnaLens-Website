@@ -1,0 +1,122 @@
+.container {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin: 4rem auto;
+}
+.accordion {
+  margin: 2rem 0;
+  --bs-accordion-active-bg: #fefefe !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-color: #121212 !important;
+}
+.accordion button {
+  width: 100% !important;
+  display: flex !important;
+  /* border: 1px solid !important; */
+  justify-content: space-between !important;
+}
+.accordionItem {
+  /* border: 1px solid green !important; */
+  padding: 1.5rem 0;
+  border-bottom: 2px solid !important ;
+}
+.accordionItem:last-child {
+  border-bottom: none !important ;
+}
+.accordionItem button {
+  width: 100% !important;
+  font-size: 1.7rem;
+  font-weight: 700;
+  background-image: none;
+}
+.accordionItem button:focus-within {
+  box-shadow: none !important;
+  color: black !important;
+}
+.accordionItem button:not(.collapsed)::after {
+  color: black !important;
+  /* background-color: #121212; */
+  /* background-image: none; */
+}
+
+.rightContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.rightContainer p {
+  margin-bottom: 0 !important;
+}
+/* .accordionItem button:not(.collapsed) {
+    border: 1px solid red;
+    transform: var(--bs-accordion-btn-icon-transform)
+} */
+
+.accordionBody {
+  margin: 0 !important;
+  padding: 0 1rem !important;
+}
+.accordionBody .jobItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jobItem > a {
+  text-decoration: none;
+}
+.jobItem p {
+  color: #7000ff;
+  margin: 0;
+}
+.jobItem p > img {
+  margin-left: 5px;
+  height: 11px;
+}
+.jobrole {
+  list-style: none;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 !important;
+}
+@media screen and (max-width: 780px) {
+  .container {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 1.5rem auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .container {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 3rem auto;
+  }
+}
+.searchSec {
+  border: 1px solid rgb(88, 88, 88);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+}
+.searchSec .inputsec {
+  width: 95%;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+.searchSec .searchIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: fill;
+}
+.jobContainer .jobItem {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}

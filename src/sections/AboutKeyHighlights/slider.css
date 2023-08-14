@@ -1,0 +1,38 @@
+.slick-dots li.slick-active button:before {
+  background-color: #7000ff !important;
+  color: transparent !important;
+  width: 29px !important;
+  height: 10px !important;
+  border-radius: 20px;
+  opacity: 1 !important;
+  transition: all 0.1s ease-in;
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-dots li {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 29px !important;
+  height: 10px !important;
+}
+
+.slick-dots li button {
+  height: 10px !important;
+}
+
+.slick-dots li button:before {
+  opacity: 0.35 !important;
+  height: 10px !important;
+  line-height: 10px !important;
+  color: #7000ff !important;
+}
+
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
